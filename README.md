@@ -1,15 +1,4 @@
 <div align="center">
-  
-[1]: https://github.com/Pradnya1208
-[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
-[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
-[4]: https://twitter.com/Pradnya1208
-
-
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
 
 </div>
 
@@ -143,7 +132,7 @@ We now make functions for processing all images in the data-set using the pre-tr
 We effectively create a new data-set of the transfer-values. This is because it takes a long time to process an image in the VGG16 model. We will not be changing all the parameters of the VGG16 model, so every time it processes an image, it gives the exact same result. We need the transfer-values to train the image-captioning model for many epochs, so we save a lot of time by calculating the transfer-values once and saving them in a cache-file.
 <br>
 `process_images()` , `process_images_train()` , and `process_images_val()` are the helper functions used for processing the images.<br>
-Checkout the [Notebook](https://github.com/Pradnya1208/Image-Caption-Generator/blob/main/Scripts/Image_caption_generator.ipynb) for more details.
+Checkout the [Notebook](https://github.com/hemanthtv/Image-Caption-Generation/blob/main/Scripts/Image_caption_generator.ipynb) for more details.
 
 
 
