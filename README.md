@@ -14,7 +14,7 @@
 </div>
 
 # <div align="center">Image Caption Generator</div>
-<div align="center"><img src="https://github.com/Pradnya1208/Image-Caption-Generator/blob/main/output/image_captioning.gif?raw=true"></div>
+<div align="center"><img src="https://github.com/hemanthtv/Image-Caption-Generation/blob/main/output/result.gif?raw=true"></div>
 
 ## Overview:
 In Machine Translation, we use two Recurrent Neural Networks (RNN), the first called an encoder and the second called a decoder.
